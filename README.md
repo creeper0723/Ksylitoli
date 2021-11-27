@@ -9,8 +9,9 @@ brew install sdcc
 
 binutilsをインストール
 ```sh
-brew install sdcc
+brew install binutils
 ```
+
 
 libusbをインストール
 ```sh
