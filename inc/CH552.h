@@ -97,7 +97,7 @@ SFR(CLOCK_CFG, 0xB9); // system clock config: lower 3 bits for system clock Fsys
  Fsys = Fpll / 512 = 187.5KHz: 0 0 0
 */
 SFR(WAKE_CTRL, 0xA9); // wake-up control, Write@SafeMode
-#define bWAK_BY_USB 0x80 // enable wake-up by USB event
+#define bWAK_BY_USB 0x80 // enable wake-up by UShttps://github.com/creeper0723/KsylitoliB event
 #define bWAK_RXD1_LO 0x40 // enable wake-up by RXD1 low level
 #define bWAK_P1_5_LO 0x20 // enable wake-up by pin P1.5 low level
 #define bWAK_P1_4_LO 0x10 // enable wake-up by pin P1.4 low level

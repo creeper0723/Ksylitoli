@@ -17,9 +17,9 @@ void main()
 
 	while(1)
 	{
-		P1 = 0;
+		P1_4 = 0;
 		delay(10);
-		P1 = 0xFF;
+		P1_4 = 0xFF;
 		delay(10);
 	}
 }

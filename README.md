@@ -1,4 +1,6 @@
 # Ksylitoli
+## ピンアウト
+![CH554](https://user-images.githubusercontent.com/31387612/143665460-61dda03b-befd-42e3-a19b-f7cb1ce404c1.jpg)
 ## macOS
 sdccをインストール
 ```sh
