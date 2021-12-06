@@ -16,11 +16,6 @@ brew install binutils
 ### objcopyが見つからない場合
 binutilsのパスを通します。
 
-```sh
-brew list binutils
-```
-でbinutilsがある場所を探し、そのパスを.zshrcなどに追記します。
-
 
 libusbをインストール
 ```sh
@@ -34,10 +29,14 @@ pip install ch55xtool
 
 ## コンパイル
 ```sh
-mkdir build
 make
 ```
 するとコンパイルします。
+
+```sh
+brew list binutils
+```
+でbinutilsがある場所を探し、そのパスを.zshrcなどに追記します。
 
 ## 書き込み
 downloadボタンを押しながらUSBケーブルを挿すとブートローダモードに入ります。
