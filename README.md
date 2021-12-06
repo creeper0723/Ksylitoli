@@ -34,6 +34,7 @@ pip install ch55xtool
 
 ## コンパイル
 ```sh
+mkdir build
 make
 ```
 するとコンパイルします。
